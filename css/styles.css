@@ -1,0 +1,202 @@
+header{
+    z-index: 1;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    padding: 0 2em;
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+main section {
+    max-height: 100%;
+}
+
+#siticLogo {
+    padding: 0.5em 1em;
+}
+
+#home {
+    margin-top: -40px;
+    max-height: 100%;
+}
+
+#sitic {
+    padding: 5em;
+}
+
+#solucoes {
+    background-color: #06b306;
+}
+
+#solucoes h1 {
+    text-align: center; 
+    padding-top: 1em; 
+    font-size: 48px; 
+    font-weight: bolder; 
+    color: white;
+}
+
+#solucoes .container{
+    margin-top: 2em;
+}
+
+#solucoes .card {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 2.5em 0;
+}
+
+#solucoes .card-body {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
+    text-align: center; 
+    font-size: 48px; 
+    font-weight: bolder; 
+    color: white;
+}
+
+#solucoes svg {
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+#solucoes h5 {
+    color: white;
+}
+
+#clientes {
+    padding: 5em 2em;
+    background-color: #3f3f3f;
+}
+
+#clientes .texto-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+#clientes img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#clientes .feedBacks {
+    display: flex;
+    flex-direction: row;
+}
+
+#clientes .cardFeedback {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 220px;
+    height: 300px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+#representacoes {
+    padding: 2em 0;
+    background-color: white;
+}
+
+#representacoes h1 {
+    text-align: center; 
+    padding-top: 1em; 
+    font-size: 28px; 
+    font-weight: bolder; 
+    color: #3f3f3f;
+}
+
+#representacoes .container{
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+#representacoes .card {
+    border: none;
+    padding-bottom: 3em;
+   
+}
+
+#representacoes img {
+    height: 200px;
+    border-radius: 20px;
+}
+
+#representacoes .btn-vermais {
+    font-weight: bolder;
+    width: 250px;
+    height: 60px;
+    background-color: #06b306;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contato {
+    padding: 3.5em 0;
+}
+
+#contato h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#contato .image {
+    background-color: #6e6e6e;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#contato label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contato label span{
+    color: blue;
+}
+
+#contato input[type=text], input[type=email] {
+    padding: 1em;
+    margin: 10px 0;
+    box-shadow: 2px 3px 20px #a1a1a1;
+    border: none;
+}
+
+#contato textarea {
+    box-shadow: 2px 3px 20px #a1a1a1;
+    border: none;
+}
+
+#contato input[type=submit] {
+    margin: 2.5em 0;
+    border: none; 
+    width: 200px; 
+    height: 60px; 
+    background-color: #06b306;
+}
+
+
+footer {
+    background-color: #06b306;
+    height: 20vh;
+}
